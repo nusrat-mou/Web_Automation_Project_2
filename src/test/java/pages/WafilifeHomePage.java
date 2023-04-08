@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByXPath;
 
 public class WafilifeHomePage extends BasePage{
 	
@@ -15,4 +16,9 @@ public class WafilifeHomePage extends BasePage{
     public By BookDetails = By.xpath("//body/div[2]/div[3]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/article[1]/div[1]/div[1]/div[1]/div[2]/div[3]/ul[1]/li[2]/div[1]/div[1]/a[1]");
     public By Order = By.xpath("//body/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[2]/button[2]");
     public By PlaceOrder = By.xpath("//span[contains(text(),'অর্ডার সম্পন্ন করুন')]");
+    public By EnterName = By.xpath("//input[@id='billing_first_name']");
+    public By EnterPhoneNumber = By.xpath("//input[@id='billing_phone']");
+    public By EnterEmailNumber = By.xpath("//input[@id='billing_email']");
+    public By Area = By.xpath("//select[@id='billing_area']");
+    public By Address = By.xpath(" //textarea[@id='billing_address_1']");
 }

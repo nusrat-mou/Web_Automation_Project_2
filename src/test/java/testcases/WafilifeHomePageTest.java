@@ -41,6 +41,17 @@ public class WafilifeHomePageTest extends BaseDriverSetup {
 		wafilifehomepage.clickOnElement(wafilifehomepage.PlaceOrder);
 		Thread.sleep(4000);
 		
+		wafilifehomepage.writeText(wafilifehomepage.EnterName, "Nusrat Jahan Mou");
+		Thread.sleep(2000);
+		wafilifehomepage.writeText(wafilifehomepage.EnterPhoneNumber, "01768394744");
+		Thread.sleep(2000);
+		wafilifehomepage.writeText(wafilifehomepage.EnterEmailNumber, "nusrat123@gmail.com");
+		Thread.sleep(2000);
+		wafilifehomepage.clickOnElement(wafilifehomepage.Area);
+		Thread.sleep(2000);
+		wafilifehomepage.writeText(wafilifehomepage.Address, "Puran Dhaka a/2");
+		Thread.sleep(4000);
+		
 		
 		
 		
